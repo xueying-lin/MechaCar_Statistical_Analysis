@@ -32,3 +32,28 @@
 -  Since the *p-value* is **0.042**, slightly smaller than the significance level, 0.05, so we **reject the null hypothesis.** There is **statistical difference** between the PSI for **manufacturing lot 3** and the population mean of 1,500 pounds per square inch.
 
 ## Study Design: MechaCar vs Competition
+1. Purpose: Quantify how the MechaCar performs against the vehicles from other manufacturers
+
+2. Study Questions: Whether **the City and Highway fuel efficiency, Horse Power, Maintenance cost, Interior attraction rating, and Safety rating** of the *newest MechaCar* are significantly different from the vehicle data from *other manufacturers?*
+
+3. Hypothesis
+ - H0 : The means of all groups are equal.
+ - Ha : At least one of the means is different from all other groups.
+ 
+4. Metrics are going to test:
+ - City Fuel Efficiency
+ - Highway Fuel Efficiency
+ - Horse Power
+ - Maintenance Cost
+ - Interior Attraction rating
+ - Safety Rating
+ 
+5. Used Statistical test:
+ This study will use ANOVA test since there are more than 2 independent variables (types of manufacturers). Also, the metrics this study will use for dependent variables are continuous data, and the independent variable(types of manufactuerers) is nominal (categorical) data. ANOVA test is the best match for this study.
+ 
+6. Needed Data: 
+ First, all the vehicle data should be from the same year, same transmission mode.
+ Second, the study needs the vehicle data from MechaCar and at least two different manyfacturers.
+ Third,  The list of names of the manufactuers will be the x value(independent variable).
+ Fourth, the study needs the data of city and highway fuel efficiency, horse power, maintencance cost, interior attraction rating, and safety rating data for each vehicle to be the dependent variable. The variables should be continuous data.
+ Lastly, the ANOVA test will be done for each metric seperately.
